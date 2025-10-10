@@ -1,0 +1,9 @@
+CATEGORICAL FEATURES (one-hot encoded):
+  - hour_bin
+  - weekday
+  - month
+  - cause_group
+
+NUMERIC FEATURES (passthrough):
+  - station_count
+  - is_engineering_work
