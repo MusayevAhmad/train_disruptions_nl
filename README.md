@@ -97,7 +97,7 @@ pip install pandas numpy matplotlib scikit-learn
 
 ### Execute the Analysis
 ```bash
-python src/train_disruption_logistic_regression.py
+python src/execute_analysis.py
 ```
 
 This will:
