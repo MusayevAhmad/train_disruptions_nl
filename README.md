@@ -50,8 +50,8 @@ This project implements descriptive and predictive analytics for Dutch train dis
 
 | Metric | Value |
 |--------|-------|
-| **PR-AUC (Long class)** | 0.7607 |
-| **Brier Score** | 0.1981 |
+| **PR-AUC (Long class)** | 0.7612 |
+| **Brier Score** | 0.1980 |
 | **Precision (Long)** | 0.6667 |
 | **Recall (Long)** | 0.7735 |
 | **F1 Score (Long)** | 0.7161 |
@@ -134,9 +134,9 @@ This will:
 
 1. **Model Performance**:
    - The model shows **strong** predictive performance
-   - PR-AUC of 0.761 indicates good discrimination between Long and Short disruptions
-   - F1 score of 0.716 suggests balanced precision and recall
-   - Brier score of 0.198 shows reasonable calibration
+   - PR-AUC of 0.7612 indicates excellent discrimination between Long and Short disruptions
+   - F1 score of 0.7161 suggests balanced precision and recall
+   - Brier score of 0.1980 shows good probability calibration
 
 2. **Feature Importance** (Interpretation):
    - `cause_group`: Most predictive feature (staff/logistical causes → longer)
@@ -146,8 +146,8 @@ This will:
 
 3. **Business Value**:
    - Early prediction of disruption duration enables better resource allocation
-   - High recall (77%) ensures most long disruptions are identified
-   - Reasonable precision (67%) minimizes false alarms
+   - High recall (77.4%) ensures most long disruptions are identified
+   - Reasonable precision (66.7%) minimizes false alarms
 
 ## Methodology Highlights
 
@@ -220,5 +220,5 @@ This project is for educational purposes as part of coursework.
 
 ---
 
-**Last Updated**: October 10, 2025
+**Last Updated**: October 17, 2025
 
