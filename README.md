@@ -73,7 +73,12 @@ train_disruptions_nl/
 │   ├── ...
 │   └── disruptions-2024.csv
 ├── src/
-│   ├── train_disruption_logistic_regression.py  # Main analysis script
+│   ├── execute_analysis.py                      # Main analysis script
+│   ├── model_pipeline.py                        # Logistic regression implementation
+│   ├── feature_engineering.py                   # Feature creation and splitting
+│   ├── data_loader.py                           # Data loading
+│   ├── visualizations.py                        # Figure generation
+│   ├── logger.py                                # Structured logging
 │   ├── train_disruption_analysis.ipynb          # Exploratory notebook
 │   └── column_comparison.py                     # Data validation script
 ├── figures/
@@ -162,10 +167,11 @@ This will:
 - Decision threshold optimized for F1 score on validation set (0.330)
 
 ### Evaluation Strategy
-- **PR-AUC** as primary metric (better for imbalanced classes than ROC-AUC)
-- **Brier score** for calibration quality
+- **PR-AUC** as primary metric (measures discrimination for the positive class)
+- **Brier score** for probability calibration quality
 - **Confusion matrix** for detailed error analysis
 - **Calibration curve** to visualize probability reliability
+- **Precision, Recall, F1 Score** at optimized threshold for operational metrics
 
 ## Visualizations
 
@@ -220,5 +226,5 @@ This project is for educational purposes as part of coursework.
 
 ---
 
-**Last Updated**: October 17, 2025
+**Last Updated**: October 18, 2025
 
