@@ -1,4 +1,4 @@
-# Train Disruption Predictive Analytics - Assignment 2
+# Train Disruption Predictive Analytics
 
 ## Overview
 
@@ -216,15 +216,4 @@ Demonstrates good calibration with predicted probabilities closely matching obse
    - Evaluate performance per cause group
    - Analyze prediction errors by time period
 
-## Authors & License
-
-**Course**: Introduction to Data Science (Assignment 2)  
-**Institution**: Vrije Universiteit Amsterdam  
-**Year**: 2025  
-
-This project is for educational purposes as part of coursework.
-
----
-
-**Last Updated**: October 18, 2025
 
